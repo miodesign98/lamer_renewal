@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SOGANG';
+    src: url('SOGANG.woff2') format('woff2'),
+        url('SOGANG.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

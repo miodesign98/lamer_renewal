@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lamer korea</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS CSS 추가 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- AOS JS 추가 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        window.onload = () => {
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+
+            var swiper = new Swiper(".myreview", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                }
+            });
+
+            AOS.init({
+                once: false,  // 한 번만 실행 (원하면 false로 변경)
+                duration: 1000, // 기본 애니메이션 시간 설정
+            });
+        }
+    </script>
+
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="inner">
+            <h1 class="logo">
+                <a href="#"><img src="img/Logo.svg" alt=""></a>
+            </h1>
+
+            <nav class="nav">
+                <ul class="gnb">
+                    <li>
+                        <a href="#" class="menu">Lamer Story</a>
+                        <ul class="in_menu">
+                            <li><a href="#">Brand story</a></li>
+                            <li><a href="#">원료에 대한 철학</a></li>
+                            <li><a href="#">미라클 브로스</a></li>
+                        </ul><!-- menu_1 end -->
+                    </li>
+                    <li>
+                        <a href="#" class="menu">Shop</a>
+                        <ul class="in_menu">
+                            <li><a href="#">New Product</a></li>
+                            <li><a href="#">skin care</a></li>
+                            <li><a href="#">base makeup</a></li>
+                            <li><a href="#">mans</a></li>
+                            <li><a href="#">primium line</a></li>
+                            <li><a href="#">pure line</a></li>
+                        </ul><!-- menu_1 end -->
+                    </li>
+                    <li>
+                        <a href="#" class="menu">Event</a>
+                        <ul class="in_menu">
+                            <li><a href="#">신규회원 프로모션</a></li>
+                            <li><a href="#">온라인 공식몰 혜택</a></li>
+                            <li><a href="#">이번 달 특별이밴트 </a></li>
+                        </ul><!-- menu_1 end -->
+                    </li>
+                    <li>
+                        <a href="#" class="menu">MemberShip</a>
+                        <ul class="in_menu">
+                            <li><a href="#">멤버십 프로모션</a></li>
+                            <li><a href="#">멤버십 등급기준</a></li>
+                        </ul><!-- menu_1 end -->
+                    </li>
+                </ul><!-- gnb end -->
+            </nav>
+
+            <button>MY PAGE</button>
+        </div><!-- inner end -->
+    </header>
+
+    <main class="main">
+        <section class="main_visual">
+            <video src="img/video/12174208_1080_1918_24fps.mp4" autoplay muted loop></video>
+            <div class="text">
+                <h2>바다에서 얻은 치유의 힘</h2>
+                <!--  <p>라 메르는 맥스 휴버 박사가 12년간 6천 번의 실험 끝에 발견한 미라클 브로스™를 바탕으로 탄생했습니다. <br>
+                    바다와 해양 식물의 자생력을 담은 이 성분은 크렘 드 라 메르를 비롯한 모든 제품에 적용됩니다.</p> -->
+            </div><!-- text end -->
+
+            <div class="scroll">
+                <p>scroll down</p>
+                <img src="img/icon/아래회살표.png" alt="arrow">
+            </div><!-- scroll end -->
+        </section><!-- main_visual end -->
+
+        <section class="section_01">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="text_wrap">
+                            <div class="text">
+                                <strong>new product</strong>
+                                <h2>Rejuvenating <br>
+                                    Night Cream</h2>
+                                <p>더욱 강력해진 안티에이징 효과를 선사하여 피부에 <br> 활력을 더하는 나이트 크림</p>
+                            </div><!-- text end -->
+
+                            <button class="btn">
+                                <div class="btn_bf">
+                                    <span>view more</span>
+                                    <img src="img/icon/arrow_right.png" alt="">
+                                </div><!-- btn_bf end -->
+
+                                <div class="btn_af">
+                                    <span>view more</span>
+                                </div><!-- btn_af end -->
+                            </button><!-- button end -->
+                        </div><!-- text_wrap end -->
+                        <img src="img/section_01/Rectangle 2.jpg" alt="">
+                    </div><!-- swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <div class="text_wrap">
+                            <div class="text">
+                                <strong>new product</strong>
+                                <h2>Concentrate</h2>
+                                <p>피부 진정 및 보호를 위한 벨벳같이 부드러운 토탈 <br>
+                                    안티에이징 세럼</p>
+                            </div><!-- text end -->
+
+                            <button class="btn">
+                                <div class="btn_bf">
+                                    <span>view more</span>
+                                    <img src="img/icon/arrow_right.png" alt="">
+                                </div><!-- btn_bf end -->
+
+                                <div class="btn_af">
+                                    <span>view more</span>
+                                </div><!-- btn_af end -->
+                            </button><!-- button end -->
+                        </div><!-- text_wrap end -->
+                        <img src="img/section_01/Rectangle 2-1.jpg" alt="">
+                    </div><!-- swiper-slide end -->
+
+                    <div class="swiper-slide">
+                        <div class="text_wrap">
+                            <div class="text">
+                                <strong>new product</strong>
+                                <h2>Hand <br>
+                                    treatment</h2>
+                                <p>피부를 보호하여 부드럽게 가꿔주는 핸드 크림</p>
+                            </div><!-- text end -->
+
+                            <button class="btn">
+                                <div class="btn_bf">
+                                    <span>view more</span>
+                                    <img src="img/icon/arrow_right.png" alt="">
+                                </div><!-- btn_bf end -->
+
+                                <div class="btn_af">
+                                    <span>view more</span>
+                                </div><!-- btn_af end -->
+                            </button><!-- button end -->
+                        </div><!-- text_wrap end -->
+                        <img src="img/section_01/Rectangle 2-2.jpg" alt="">
+                    </div><!-- swiper-slide end -->
+
+                </div><!-- swiper-wrapper end -->
+                <!-- <div class="swiper-pagination"></div> -->
+            </div><!-- swiper mySwiper end -->
+
+        </section><!-- section_01 end -->
+
+        <section class="section_02">
+            <p>primium skincare brand lamer cosmetic primium skincare brand lamer cosmetic</p>
+        </section><!-- section_02 end -->
+
+        <section class="section_03"
+        data-aos="fade-up" 
+        data-aos-duration="1300" 
+        data-aos-easing="ease-out-back"
+        data-aos-anchor-placement="bottom-bottom">
+
+            <div class="wrap">
+                <div class="text">
+                    <h2>skin care</h2>
+                    <p>모이스춰라이저 베스트셀러인 크렘 드 라 메르부터<br>
+                        아이 케어, 세럼, 로션으로 생기와 활력을 더해 환한 <br>
+                        피부를 연출할 수 있습니다.</p>
+                </div><!-- text end -->
+                <ul class="item_box">
+                    <li>
+                        <p>Infused <br>
+                            Emulsion</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Advanced <br>
+                            Lotion</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Moisturizing <br>
+                            Matte lotion</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Moisturizing <br>
+                            Soft Cream</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p> Moisturizing <br>
+                            Fresh Cream</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Moisturizing <br>
+                            lotion</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Contour <br>
+                            Serum</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Hydrating <br>
+                            Serum</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Concentrate <br>
+                            serum</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>eye Night <br>
+                            Intense</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                </ul><!-- item_box end -->
+            </div><!-- wrap end -->
+            <img src="img/section_03,04,05/Rectangle 03.jpg" alt="03" class="img">
+        </section><!-- section_03 end -->
+
+        <section class="section_04"
+        data-aos="fade-up" 
+        data-aos-duration="1300" 
+        data-aos-easing="ease-out-back"
+        data-aos-anchor-placement="bottom-bottom">
+            <img src="img/section_03,04,05/Rectangle 04.jpg" alt="04" class="img">
+            <div class="wrap">
+                <div class="text">
+                    <h2>base makeup</h2>
+                    <p>스킨케어의 풍부한 영양 성분이 그대로 담겨 보습과 윤기를<br>
+                        선사하고, 피부의 결점을 자연스럽게 커버해 보다 완벽한<br>
+                        피부 표현이 가능하게 해줍니다.</p>
+                </div><!-- text end -->
+                <ul class="item_box">
+                    <li>
+                        <p>Soft Fluid<br>
+                            Long Wear</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>foundation <br>
+                            SPF20++</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Hydrating <br>
+                            Illuminator</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>powder</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p> Lip <br>
+                            Volumizer</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>lip <br>
+                            bam</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                </ul><!-- item_box end -->
+            </div><!-- wrap end -->
+
+        </section><!-- section_04 end -->
+
+        <section class="section_03" 
+        data-aos="fade-up" 
+        data-aos-duration="1300" 
+
+        data-aos-easing="ease-out-back"
+        data-aos-anchor-placement="bottom-bottom">
+            <div class="wrap">
+                <div class="text">
+                    <h2>mens</h2>
+                    <p>그를 위한 머스트 해브 아이템, 데일리 그루밍을 통해 <br>
+                        최적의 효과를 경험할 수 있는 라 메르만의 스킨케어 루틴</p>
+                </div><!-- text end -->
+                <ul class="item_box">
+                    <li>
+                        <p>Energizing <br>
+                            Gel Cleanser</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Eye <br>
+                            Concentrate</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Moisturizing <br>
+                            Matte lotion</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>Moisturizing <br>
+                            Soft Cream</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p> Moisturizing <br>
+                            Fresh Cream</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>cream <br>
+                            de ra mer</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                    <li>
+                        <p>concentrate <br>
+                            night bam</p>
+                        <img src="img/icon/arrow_right_white.png" alt="arrow">
+                    </li>
+                </ul><!-- item_box end -->
+            </div><!-- wrap end -->
+            <img src="img/section_03,04,05/Rectangle 05.jpg" alt="03" class="img">
+        </section><!-- section_03 end -->
+
+        <section class="section_05">
+            <div class="inner">
+                <video src="img/video/12922600_1280_720_30fps.mp4" autoplay muted loop></video>
+                <h2>La Mer & Sustainability</h2>
+                <div class="text">
+                    <h3>The Power of the Sea, Protected</h3>
+                    <p>우리는 제품의 핵심 성분인 미라클 브로스™를 지속 가능한 방식으로 수확하며, 바다의 생명력을 지켜갑니다. <br>
+                        책임감 있는 원료 조달과 친환경 패키징을 통해 다음 세대에도 깨끗한 바다를 전할 수 있도록 노력합니다.</p>
+                </div><!-- text end -->
+            </div><!-- inner end -->
+        </section><!-- section_05 end -->
+
+        <section class="section_06">
+            <div class="inner">
+
+                <div class="wrap">
+                    <div class="text">
+                        <h2>real <br>review</h2>
+                        <p>라 메르를 경험한 이들이 직접 <br>
+                            증명하는 깊은 보습과 치유의 힘.<br>
+                            진정한 아름다움을 찾은 리얼 <br>
+                            리뷰를 만나보세요.</p>
+                    </div>
+                    <button class="btn">
+                        <div class="btn_bf">
+                            <span>view more</span>
+                            <img src="img/icon/arrow_right.png" alt="">
+                        </div><!-- btn_bf end -->
+
+                        <div class="btn_af">
+                            <span>view more</span>
+                        </div><!-- btn_af end -->
+                    </button><!-- button end -->
+                </div><!-- wrap end -->
+
+                <!-- Swiper -->
+                <div class="swiper myreview">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <img src="img/review/images.jpeg" alt="1">
+                            <div class="star">
+                                <img src="img/icon/star.png" alt="star">
+                                <span>OceanGlow_92</span>
+                            </div><!-- star end -->
+
+                            <div class="text">
+                                <h3>단 한 번의 사용만으로도<br>
+                                    피부가 다르게 느껴졌어요.</h3>
+                                <p class="re">평소 건조하고 예민한 피부 때문에 어떤 크림을 발라도 부족하다고 느꼈어요.
+                                    하지만 라 메르를 처음 사용한 날, 피부에 녹아들 듯 부드럽게 스며드는 텍스처에 놀랐어요.
+                                    하루 종일 촉촉함이 유지되면서도 무겁지 않은 마무리감 덕분에 피부가 한결 편안해졌어요.
+                                    몇 주 후, 피부 속부터 차오르는 건강한 윤기를 보며 진짜 변화를 실감했어요</p>
+                            </div><!-- text end -->
+                            <div class="profile">
+                                <div class="item">
+                                    <img src="img/review/lm_prod_12343_4x5_1.png" alt="0101">
+                                    <span>모이스쳐라이징 프레시 크림</span>
+                                </div><!-- item end -->
+                                <div class="date">
+                                    <span>03.05</span>
+                                </div><!-- date end -->
+
+                            </div><!-- profile end -->
+                        </div><!-- swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <img src="img/review/images (1).jpeg" alt="1">
+                            <div class="star">
+                                <img src="img/icon/star.png" alt="star">
+                                <span> SereneSkin_YJ</span>
+                            </div><!-- star end -->
+
+                            <div class="text">
+                                <h3> 크림 한 통을 다 쓸 때쯤, 거울 속<br>
+                                    제 피부가 변한 걸 확인했어요</h3>
+                                <p class="re">솔직히 처음엔 ‘정말 이 가격을 낼 만한 제품일까?’ 하는 의문이 있었어요.
+                                    하지만 첫 사용 후 피부가 즉각적으로 부드러워지는 걸 느꼈고,
+                                    한 통을 다 쓰고 나니 거울 속 제 피부가 한결 정돈되고 건강해 보이더라고요.
+                                    얇고 예민했던 피부 결이 매끄러워지고, 속당김이 줄어든 덕분인지 피부가 한층
+                                    더 어려진 느낌이에요.</p>
+                            </div><!-- text end -->
+                            <div class="profile">
+                                <div class="item">
+                                    <img src="img/review/lm_prod_12343_4x5_1.png" alt="0101">
+                                    <span>모이스쳐라이징 프레시 크림</span>
+                                </div><!-- item end -->
+                                <div class="date">
+                                    <span>08.12</span>
+                                </div><!-- date end -->
+
+                            </div><!-- profile end -->
+                        </div><!-- swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <img src="img/review/images (3).jpeg" alt="1">
+                            <div class="star">
+                                <img src="img/icon/star.png" alt="star">
+                                <span>BlueMiracle_88</span>
+                            </div><!-- star end -->
+
+                            <div class="text">
+                                <h3>라 메르를 만나고 나서야 <br>
+                                    진짜 스킨케어를 알게 됐어요</h3>
+
+                                <p class="re">정말 많은 고가 화장품을 사용해봤지만,
+                                    라 메르는 확실히 다르다는 걸 느꼈어요. 밤에 크림을 듬뿍
+                                    바르고 자면 아침에 피부가 한층 탄탄해지고, 속부터 수분이
+                                    차오른 듯 쫀쫀해져요. 잦은 외부 자극과 스트레스 때문에
+                                    칙칙했던 피부도 점점 맑아지고, 메이크업을 안 해도 자신감이 생겼어요.</p>
+                            </div><!-- text end -->
+                            <div class="profile">
+                                <div class="item">
+                                    <img src="img/review/lm_prod_104371_4x5_1.png" alt="0101">
+                                    <span>모이스쳐라이징 소프트 크림</span>
+                                </div><!-- item end -->
+                                <div class="date">
+                                    <span>06.25</span>
+                                </div><!-- date end -->
+
+                            </div><!-- profile end -->
+                        </div><!-- swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <img src="img/review/images (5).jpeg" alt="1">
+                            <div class="star">
+                                <img src="img/icon/star.png" alt="star">
+                                <span>DeepHydra_K</span>
+                            </div><!-- star end -->
+
+                            <div class="text">
+                                <h3>고급스러운 텍스처와 은은한 향까지,
+                                    <br> 바르는 순간 힐링이에요
+                                </h3>
+                                <p class="re">라 메르는 단순한 스킨케어를 넘어,
+                                    저만의 ‘힐링 루틴’이 되었어요. 크림을 손끝에서
+                                    녹인 후 얼굴에 감싸듯 바르면, 하루의 피로가 풀리는 기분이에요.
+                                    부드럽고 탄력 있는 텍스처는 피부를 감싸 안듯 보호해주고,
+                                    은은하게 퍼지는 향은 기분까지 편안하게 만들어줘요.
+                                    매일 밤 이 시간을 기다리게 될 만큼, 저에게는 소중한 루틴이 되었어요.</p>
+                            </div><!-- text end -->
+                            <div class="profile">
+                                <div class="item">
+                                    <img src="img/review/images (4).jpeg" alt="0101">
+                                    <span> 라메르 스킨케어+아이세럼 세트</span>
+                                </div><!-- item end -->
+                                <div class="date">
+                                    <span>03.10</span>
+                                </div><!-- date end -->
+
+                            </div><!-- profile end -->
+                        </div><!-- swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <img src="img/review/images (2).jpeg" alt="1">
+                            <div class="star">
+                                <img src="img/icon/star.png" alt="star">
+                                <span>PureAura_77</span>
+                            </div><!-- star end -->
+
+                            <div class="text">
+                                <h3>건조한 겨울에도 촉촉함이 <br>
+                                    유지되는 걸 보고 놀랐어요.</h3>
+                                <p class="re">겨울마다 피부가 심하게 건조해져서 각질이 들뜨고 메이크업도 잘 안 먹었어요.
+                                    그런데 라 메르 크림을 사용한 이후로는 아침에 일어나도 피부가 촉촉하게 유지되고,
+                                    탄탄해진 느낌이 들어요. 확실히 수분 보유력이 뛰어나고, 바를수록 피부가 부드러워지는 게 보여요.
+                                    겨울철 필수템으로 자리 잡았어요!</p>
+                            </div><!-- text end -->
+                            <div class="profile">
+                                <div class="item">
+                                    <img src="img/review/lm_prod_78364_4x5_1.png" alt="0101">
+                                    <span>모이스쳐라이징 세트</span>
+                                </div><!-- item end -->
+                                <div class="date">
+                                    <span>03.05</span>
+                                </div><!-- date end -->
+
+                            </div><!-- profile end -->
+                        </div><!-- swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <img src="img/review/images (4).jpeg" alt="1">
+                            <div class="star">
+                                <img src="img/icon/star.png" alt="star">
+                                <span>OGlow_98</span>
+                            </div><!-- star end -->
+
+                            <div class="text">
+                                <h3>투자를 아깝지 않게 만드는 <br>
+                                    크림, 그 이상의 가치</h3>
+                                <p class="re">처음엔 가격이 부담스러웠지만, 이제는 스킨케어에서 절대 뺄 수 없는 존재가 됐어요.
+                                    바를수록 피부가 한층 건강해지고, 속부터 차오르는 광채가 느껴져요. 특히 피부가 예민할 때
+                                    사용하면 진정 효과까지 있어서 확실한 신뢰가 생겼어요. 좋은 스킨케어 제품이 피부에
+                                    어떤 변화를 줄 수 있는지 직접 경험하게 됐어요.</p>
+                            </div><!-- text end -->
+                            <div class="profile">
+                                <div class="item">
+                                    <img src="img/review/lm_prod_12343_4x5_1.png" alt="0101">
+                                    <span>모이스쳐라이징 프레시 크림</span>
+                                </div><!-- item end -->
+                                <div class="date">
+                                    <span>12.09</span>
+                                </div><!-- date end -->
+
+                            </div><!-- profile end -->
+                        </div><!-- swiper-slide end -->
+
+                    </div><!-- swiper-wrapper end -->
+                    <div class="swiper-button-next"></div>
+                </div><!-- swiper end -->
+
+            </div><!-- inner end -->
+        </section><!-- section_06 end -->
+
+        <section class="section_07">
+            <div class="button_wrap">
+                <div class="text">
+                    <h2>service for <br>
+                        costomer</h2>
+                    <p>라메르 고객만을 위한 특별한 서비스를 <br>
+                        진행중입니다.</p>
+                </div><!-- text end -->
+                <button>
+                    <ul class="btn">
+                        <li id="openPopup1">
+                            <div class="btn_text">
+                                <h3>특별한 온라인 혜택</h3>
+                                <p>라 메르 온라인 공식몰에서 신규 고객을 위한 <br>
+                                    가격 할인 혜택 및 샘플 증정에 대해 알아보세요.</p>
+                            </div>
+                            <img src="img/icon/arrow_right_big.png" alt="">
+                        </li>
+                        <li id="openPopup2">
+                            <div class="btn_text">
+                                <h3>선물 포장 서비스</h3>
+                                <p>전 구매 고객 대상<br>스페셜 랩핑 서비스 제공</p>
+                            </div>
+                            <img src="img/icon/arrow_right_big.png" alt="">
+                        </li>
+                        <li id="openPopup3">
+                            <div class="btn_text">
+                                <h3>라 메르 스킨케어 서비스</h3>
+                                <p>피부에 맞는 맞춤형<br>스킨케어 서비스 온라인 예약</p>
+                            </div>
+                            <img src="img/icon/arrow_right_big.png" alt="">
+                        </li>
+                        <li id="openPopup4">
+                            <div class="btn_text">
+                                <h3>라이브 챗 상담</h3>
+                                <p>상담 가능 시간 안내<br>평일 오전 9시~ 오후 5시30분</p>
+                            </div>
+                            <img src="img/icon/arrow_right_big.png" alt="">
+                        </li>
+                    </ul><!-- btn end -->
+                </button>
+            </div>
+
+            <div class="pop_up">
+                <div class="popup_contents popupMenu1">
+                    <img src="img/popup/pop1.jpg" alt="">
+                    <div class="pop_right">
+                        <div class="pop_text">
+                            <h4>특별한 온라인 혜택</h4>
+                            <p>라 메르 온라인 공식몰에서 신규 고객을 위한<br>
+                                가격 할인 혜택 및 샘플 증정에 대해 알아보세요.</p>
+                            <div class="mini">
+                                <span>신규고객<br>혜택</span>
+                                <span>온라인<br>단독세트</span>
+                                <span>온라인<br>베스트셀러</span>
+                                <img src="img/icon/arrow_right_big.png" alt="">
+                            </div><!-- mini end -->
+                        </div><!-- pop_text end -->
+                        <button class="pop_btn">
+                            <ul class="pop">
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>라 메르 스킨케어 서비스</h5>
+                                        <p>피부에 맞는 맞춤형 스킨케어 서비스
+                                            온라인 예약</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>선물 포장 <br>서비스</h5>
+                                        <p>전 구매 고객 대상 스페셜 랩핑 서비스 제공</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>라이브 챗 <br>상담</h5>
+                                        <p>상담 가능 시간 안내 평일 오전 9시~ 오후 5시30분</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                            </ul><!-- pop end -->
+                        </button><!-- pop_btn end -->
+                    </div><!-- pop_right end -->
+                </div><!-- popupMenu1 end -->
+
+                <div class="popup_contents popupMenu3">
+                    <img src="img/popup/pop2.jpg" alt="">
+                    <div class="pop_right">
+                        <div class="pop_text">
+                            <h4>라 메르 스킨케어 서비스</h4>
+                            <p>피부에 맞는 맞춤형 스킨케어 서비스 <br>
+                                온라인 예약</p>
+                            <div class="mini">
+                                <span>*서비스 시작 전, 오프라인 고객 등록 한 이후에 서비스를 <br>받아 보실 수 있습니다. (매장 방문 시 고객 등록 필수)
+                                    <br> *1인당 최대 월 1회 한정 예약 가능</span>
+                                <img src="img/icon/arrow_right_big.png" alt="">
+                            </div><!-- mini end -->
+                        </div><!-- pop_text end -->
+                        <button class="pop_btn">
+                            <ul class="pop">
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>특별한 온라인 <br>혜택</h5>
+                                        <p>라 메르
+                                            온라인 공식몰에서
+                                            신규 고객을 위한
+                                            가격 할인 혜택 및
+                                            샘플 증정에 대해
+                                            알아보세요.</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>선물 포장 <br>서비스</h5>
+                                        <p>전 구매 고객 대상 스페셜 랩핑 서비스 제공</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>라이브 챗 <br>상담</h5>
+                                        <p>상담 가능 시간 안내 평일 오전 9시~ 오후 5시30분</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                            </ul><!-- pop end -->
+                        </button><!-- pop_btn end -->
+                    </div><!-- pop_right end -->
+                </div><!-- popupMenu2 end -->
+
+                <div class="popup_contents popupMenu2">
+                    <img src="img/popup/pop3.jpg" alt="">
+                    <div class="pop_right">
+                        <div class="pop_text">
+                            <h4>선물 포장 서비스</h4>
+                            <p>전 구매 고객 대상 <br>스페셜 랩핑 서비스 제공</p>
+                            <div class="mini">
+                                <span>언제나 최고의 럭셔리 뷰티 기프트가 될 수 있는 라 메르. <br>
+                                    아내, 동생, 친구를 위한 베스트 선물이 될 수 있습니다.</span>
+                                <img src="img/icon/arrow_right_big.png" alt="">
+                            </div><!-- mini end -->
+                        </div><!-- pop_text end -->
+                        <button class="pop_btn">
+                            <ul class="pop">
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>특별한 온라인 <br>혜택</h5>
+                                        <p>라 메르
+                                            온라인 공식몰에서
+                                            신규 고객을 위한
+                                            가격 할인 혜택 및
+                                            샘플 증정에 대해
+                                            알아보세요.</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>라 메르 스킨케어 서비스</h5>
+                                        <p>피부에 맞는 맞춤형 스킨케어 서비스
+                                            온라인 예약</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>라이브 챗 <br>상담</h5>
+                                        <p>상담 가능 시간 안내 평일 오전 9시~ 오후 5시30분</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                            </ul><!-- pop end -->
+                        </button><!-- pop_btn end -->
+                    </div><!-- pop_right end -->
+                </div><!-- popupMenu3 end -->
+
+                <div class="popup_contents popupMenu4">
+                    <img src="img/popup/pop4.jpg" alt="">
+                    <div class="pop_right">
+                        <div class="pop_text">
+                            <h4>라이브 챗 상담</h4>
+                            <p>라이브 챗 또는 이메일 문의 서비스를 이용하시면 <br>
+                                보다 신속하게 응대를 도와드리겠습니다.<br>감사합니다</p>
+                            <div class="mini">
+                                <span>상담 가능 시간 안내 <br> <strong>평일 오전 9시~ 오후 5시30분</strong> </span>
+
+                                <img src="img/icon/arrow_right_big.png" alt="">
+                            </div><!-- mini end -->
+                        </div><!-- pop_text end -->
+                        <button class="pop_btn">
+                            <ul class="pop">
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>특별한 온라인 <br>혜택</h5>
+                                        <p>라 메르
+                                            온라인 공식몰에서
+                                            신규 고객을 위한
+                                            가격 할인 혜택 및
+                                            샘플 증정에 대해
+                                            알아보세요.</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>라 메르 스킨케어 서비스</h5>
+                                        <p>피부에 맞는 맞춤형 스킨케어 서비스
+                                            온라인 예약</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+                                <li>
+                                    <div class="pb_text">
+                                        <h5>선물 포장 <br>서비스</h5>
+                                        <p>전 구매 고객 대상 스페셜 랩핑 서비스 제공</p>
+                                    </div>
+                                    <img src="img/icon/arrow_right_big.png" alt="">
+                                </li>
+
+                            </ul><!-- pop end -->
+                        </button><!-- pop_btn end -->
+                    </div><!-- pop_right end -->
+                </div><!-- popupMenu4 end -->
+            </div><!-- pop_up end -->
+        </section><!-- section_07 end -->
+
+        <section class="section_08">
+            <p>primium skincare brand lamer cosmetic primium skincare brand lamer cosmetic</p>
+        </section><!-- section_08 end -->
+    </main>
+
+    <footer class="footer">
+        <div class="inner">
+            <div class="text">
+                <img src="img/logo_white.png" alt="logo">
+                <div class="call">
+                    <h2>라메르 고객지원센터</h2>
+                    <strong>1644-3947</strong>
+                    <span><b>상담가능시간 </b>평일 09:00 - 18:00</span>
+                </div><!-- text end -->
+            </div><!-- ft_left end -->
+
+            <nav class="ft_nav">
+                <ul class="ft_gnb">
+                    <li>
+                        <a href="#" class="menu">company</a>
+                        <ul class="in_menu">
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul><!-- in_menu end -->
+                    </li>
+                    <li>
+                        <a href="#" class="menu">product</a>
+                        <ul class="in_menu">
+                            <li><a href="#">skin care</a></li>
+                            <li><a href="#">base makeup</a></li>
+                            <li><a href="#">mens care</a></li>
+                            <li><a href="#">Collection</a></li>
+                        </ul><!-- in_menu end -->
+                    </li>
+                    <li>
+                        <a href="#" class="menu">help</a>
+                        <ul class="in_menu">
+                            <li><a href="#">getting start</a></li>
+                            <li><a href="#">feedback</a></li>
+                            <li><a href="#">network status</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul><!-- in_menu end -->
+                    </li>
+                    <li>
+                        <a href="#" class="menu">social</a>
+                        <ul class="in_menu">
+                            <li><a href="#"><img src="img/social/twitter.png" alt="twitter">twitter</a></li>
+                            <li><a href="#"><img src="img/social/facebook.png" alt="facebook">facebook</a></li>
+                            <li><a href="#"><img src="img/social/youtube.png" alt="youtube">youtube</a></li>
+                            <li><a href="#"><img src="img/social/instagram.png" alt="instagram">instagram</a></li>
+                        </ul><!-- in_menu end -->
+                    </li>
+                </ul><!-- ft_gnb end -->
+            </nav>
+        </div><!-- inner end -->
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll("#openPopup1, #openPopup2, #openPopup3, #openPopup4"); // 모든 팝업 여는 버튼
+            const popups = document.querySelectorAll(".popup_contents"); // 모든 팝업
+            const buttonWrap = document.querySelector(".section_07 button"); // 버튼 감싸는 영역
+
+            // 1️⃣ 모든 버튼에 클릭 이벤트 추가
+            buttons.forEach(button => {
+                button.addEventListener("click", function (event) {
+                    event.stopPropagation(); // 클릭 이벤트가 상위 요소로 전달되지 않도록 방지
+
+                    // 버튼의 ID에서 숫자만 추출 (ex: openPopup1 → 1)
+                    const popupId = button.id.replace("openPopup", "popupMenu");
+                    const targetPopup = document.querySelector(`.${popupId}`); // 해당하는 팝업 찾기
+
+                    // 모든 팝업 숨기기
+                    popups.forEach(popup => popup.classList.remove("active"));
+
+                    // 클릭한 버튼에 해당하는 팝업만 보이게 설정
+                    if (targetPopup) {
+                        targetPopup.classList.add("active");
+                        buttonWrap.classList.add("hidden"); // 버튼 숨기기
+                    }
+                });
+            });
+
+            // 2️⃣ 팝업 바깥을 클릭하면 모든 팝업 닫기
+            document.addEventListener("click", function (event) {
+                let isPopupClicked = false;
+
+                popups.forEach(popup => {
+                    if (popup.contains(event.target)) {
+                        isPopupClicked = true; // 팝업 내부를 클릭한 경우
+                    }
+                });
+
+                if (!isPopupClicked) {
+                    popups.forEach(popup => popup.classList.remove("active")); // 모든 팝업 닫기
+                    buttonWrap.classList.remove("hidden"); // 버튼 다시 보이기
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
